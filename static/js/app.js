@@ -1,5 +1,5 @@
 var data;
-d3.json("../samples.json").then((dataImport) => {
+d3.json("./samples.json").then((dataImport) => {
     data = dataImport;
 
     // Populate the dropdown
